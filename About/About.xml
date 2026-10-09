@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Type 05 Police Revolver</name>
+  <packageId>zyszhao.type05revolver</packageId>
+  <author>Zyszhao</author>
+  <supportedVersions>
+      <li>1.5</li>
+  </supportedVersions>
+	<loadAfter>
+		<li>CETeam.CombatExtended</li>
+  	</loadAfter>
+  <description>
+Added Type 05 Police Revolver from China. CE compatible.
+  </description>
+</ModMetaData>

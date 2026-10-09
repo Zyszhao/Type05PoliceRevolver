@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: make 9mm Type 05 Police (FMJ) cartridge x500 -->
+  <MakeAmmo_9mmType05Police_FMJ.label>制作9mm 05式警用手枪弹 (全金属被甲弹) x500</MakeAmmo_9mmType05Police_FMJ.label>
+  <!-- EN: Craft 500 9mm Type 05 Police (FMJ) cartridges. -->
+  <MakeAmmo_9mmType05Police_FMJ.description>制作500发9mm 05式警用手枪弹 (全金属被甲弹)。</MakeAmmo_9mmType05Police_FMJ.description>
+  <!-- EN: Making 9mm Type 05 Police (FMJ) cartridges. -->
+  <MakeAmmo_9mmType05Police_FMJ.jobString>正在制作9mm 05式警用手枪弹 (全金属被甲弹)。</MakeAmmo_9mmType05Police_FMJ.jobString>
+  
+  <!-- EN: make 9mm Type 05 Police (Rubber) cartridge x500 -->
+  <MakeAmmo_9mmType05Police_Rubber.label>制作9mm 05式警用手枪弹 (橡胶弹) x500</MakeAmmo_9mmType05Police_Rubber.label>
+  <!-- EN: Craft 500 9mm Type 05 Police (Rubber) cartridges. -->
+  <MakeAmmo_9mmType05Police_Rubber.description>制作500发9mm 05式警用手枪弹 (橡胶弹)。</MakeAmmo_9mmType05Police_Rubber.description>
+  <!-- EN: Making 9mm Type 05 Police (Rubber) cartridges. -->
+  <MakeAmmo_9mmType05Police_Rubber.jobString>正在制作9mm 05式警用手枪弹 (橡胶弹)。</MakeAmmo_9mmType05Police_Rubber.jobString>
+  
+</LanguageData>

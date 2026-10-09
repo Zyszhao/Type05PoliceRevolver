@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 9mm Type 05 Police (FMJ) -->
+  <Ammo_9mmType05Police_FMJ.label>9mm 05式警用手枪弹 (全金属被甲弹)</Ammo_9mmType05Police_FMJ.label>
+  <!-- EN: A low-damage revolver cartridge, designed for riot control and difficult to kill someone.
+\n\n全金属被甲弹:
+\n软铅芯包裹坚硬的金属涂层中，击中目标时滚转能够造成广泛的肌肉撕裂伤，切断动脉和击碎骨骼，造成严重的伤害。
+\n\n使用者: -->
+  <Ammo_9mmType05Police_FMJ.description>低伤害的左轮手枪弹，设计用于防暴，难以打死人。</Ammo_9mmType05Police_FMJ.description>
+  
+  <!-- EN: 9mm Type 05 Police (Rubber) -->
+  <Ammo_9mmType05Police_Rubber.label>9mm 05式警用手枪弹 (橡胶弹)</Ammo_9mmType05Police_Rubber.label>
+  <!-- EN: A low-damage revolver cartridge, designed for riot control and difficult to kill someone.
+\n\n橡胶子弹:
+\n特殊设计的弹药，造成痛苦而不致命。
+\n\n使用者: -->
+  <Ammo_9mmType05Police_Rubber.description>低伤害的左轮手枪弹，设计用于防暴，难以打死人。</Ammo_9mmType05Police_Rubber.description>
+  
+  <!-- EN: 9mm Type 05 Police bullet (FMJ) -->
+  <Bullet_9mmType05Police_FMJ.label>9mm 05式警用手枪弹 (全金属被甲弹)</Bullet_9mmType05Police_FMJ.label>
+  
+  <!-- EN: 9mm Type 05 Police bullet (Rubber) -->
+  <Bullet_9mmType05Police_Rubber.label>9mm 05式警用手枪弹 (橡胶弹)</Bullet_9mmType05Police_Rubber.label>
+  
+</LanguageData>

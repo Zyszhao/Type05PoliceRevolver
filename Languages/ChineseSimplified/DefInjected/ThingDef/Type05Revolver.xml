@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: revolver bullet -->
+  <ZYS_Bullet_Type05Revolver.label>左轮手枪子弹</ZYS_Bullet_Type05Revolver.label>
+  
+  <!-- EN: Type 05 Police Revolver -->
+  <Zys_Type05_Revolver.label>05式警用转轮手枪</Zys_Type05_Revolver.label>
+  <!-- EN: A revolver designed for police use that is so difficult to shoot someone with it. It is said the most effective way to use is to throw it.\n\nAlso known as ZLS-05. -->
+  <Zys_Type05_Revolver.description>一种警用转轮手枪，威力极小，难以用它打死人。据说它最有效的使用方法是扔出去砸人。\n\n亦称ZLS-05转轮手枪。</Zys_Type05_Revolver.description>
+  <!-- EN: grip -->
+  <Zys_Type05_Revolver.tools.grip.label>握把</Zys_Type05_Revolver.tools.grip.label>
+  <!-- EN: muzzle -->
+  <Zys_Type05_Revolver.tools.muzzle.label>枪口</Zys_Type05_Revolver.tools.muzzle.label>
+  <!-- EN: Type 05 Police Revolver -->
+  <Zys_Type05_Revolver.verbs.Verb_ShootCE.label>05式警用转轮手枪</Zys_Type05_Revolver.verbs.Verb_ShootCE.label>
+  
+  <!-- EN: Type 05 Police Revolver (Flail) -->
+  <Zys_Type05_Revolver_Flail.label>05式警用转轮手枪（连枷）</Zys_Type05_Revolver_Flail.label>
+  <!-- EN: It is said that the most effective use of this pistol is to use it as a flail... -->
+  <Zys_Type05_Revolver_Flail.description>据说这款手枪最有效的使用方式是栓条链子当连枷用……</Zys_Type05_Revolver_Flail.description>
+  <!-- EN: handle -->
+  <Zys_Type05_Revolver_Flail.tools.handle.label>手柄</Zys_Type05_Revolver_Flail.tools.handle.label>
+  <!-- EN: grip -->
+  <Zys_Type05_Revolver_Flail.tools.grip.label>握把</Zys_Type05_Revolver_Flail.tools.grip.label>
+  <!-- EN: barrel -->
+  <Zys_Type05_Revolver_Flail.tools.barrel.label>枪口</Zys_Type05_Revolver_Flail.tools.barrel.label>
+  
+</LanguageData>

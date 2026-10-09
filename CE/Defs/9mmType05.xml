@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo9mmType05Police</defName>
+		<label>9mm Type 05 Police</label>
+		<parent>AmmoPistols</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_9mmType05Police</defName>
+		<label>9mm Type 05 Police</label>
+		<ammoTypes>
+			<Ammo_9mmType05Police_FMJ>Bullet_9mmType05Police_FMJ</Ammo_9mmType05Police_FMJ>
+			<Ammo_9mmType05Police_Rubber>Bullet_9mmType05Police_Rubber</Ammo_9mmType05Police_Rubber>
+		</ammoTypes>
+		<similarTo>AmmoSet_Pistol</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="9mmType05PoliceBase" ParentName="SmallAmmoBase" Abstract="True">
+		<description>A low-damage revolver cartridge, designed for riot control and difficult to kill someone.</description>
+		<statBases>
+			<Mass>0.006</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Ammo9mmType05Police</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="9mmType05PoliceBase">
+		<defName>Ammo_9mmType05Police_FMJ</defName>
+		<label>9mm Type 05 Police (FMJ)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Revolver/FMJ</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.03</MarketValue>
+		</statBases>
+		<ammoClass>FullMetalJacket</ammoClass>
+		<cookOffProjectile>Bullet_9mmType05Police_FMJ</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="9mmType05PoliceBase">
+		<defName>Ammo_9mmType05Police_Rubber</defName>
+		<label>9mm Type 05 Police (Rubber)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Revolver/Rubber</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.03</MarketValue>
+		</statBases>
+		<ammoClass>RubberBullet</ammoClass>
+		<cookOffProjectile>Bullet_9mmType05Police_Rubber</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="Base9mmType05PoliceBullet" ParentName="BaseBulletCE" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<dropsCasings>true</dropsCasings>
+			<casingMoteDefname>Fleck_PistolAmmoCasings</casingMoteDefname>
+			<casingFilthDefname>Filth_PistolAmmoCasings</casingFilthDefname>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base9mmType05PoliceBullet">
+		<defName>Bullet_9mmType05Police_FMJ</defName>
+		<label>9mm Type 05 Police bullet (FMJ)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>80</speed>
+			<damageAmountBase>3</damageAmountBase>
+			<armorPenetrationSharp>3</armorPenetrationSharp>
+			<armorPenetrationBlunt>15.5</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base9mmType05PoliceBullet">
+		<defName>Bullet_9mmType05Police_Rubber</defName>
+		<label>9mm Type 05 Police bullet (Rubber)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Beanbag</damageDef>
+			<speed>50</speed>
+			<damageAmountBase>2</damageAmountBase>
+			<armorPenetrationSharp>0</armorPenetrationSharp>
+			<armorPenetrationBlunt>6</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_9mmType05Police_FMJ</defName>
+		<label>make 9mm Type 05 Police (FMJ) cartridge x500</label>
+		<description>Craft 500 9mm Type 05 Police (FMJ) cartridges.</description>
+		<jobString>Making 9mm Type 05 Police (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9mmType05Police_FMJ>500</Ammo_9mmType05Police_FMJ>
+		</products>
+		<workAmount>500</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_9mmType05Police_Rubber</defName>
+		<label>make 9mm Type 05 Police (Rubber) cartridge x500</label>
+		<description>Craft 500 9mm Type 05 Police (Rubber) cartridges.</description>
+		<jobString>Making 9mm Type 05 Police (Rubber) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9mmType05Police_Rubber>500</Ammo_9mmType05Police_Rubber>
+		</products>
+		<workAmount>500</workAmount>
+	</RecipeDef>
+
+</Defs>
